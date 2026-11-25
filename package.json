@@ -1,0 +1,1 @@
+{"description":"The World in One Day — one page of world news for Tuesday 24 November 2026","license":"MIT","name":"news-image-20261124-entry-v2","scripts":{"render":"python3 generate.py","start":"node main.ts"},"type":"module","version":"2.0.0"}
