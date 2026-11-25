@@ -9,7 +9,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
-const OUT_DIR = process.env.OUTPUT_DIR ?? join(HERE, "out");
+const OUT_DIR = process.env.OUTPUT_DIR ?? process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const OUT = join(OUT_DIR, "entry.png");
 const GEN = join(HERE, "generate.py");
 const BUNDLED = join(HERE, "entry.png");
